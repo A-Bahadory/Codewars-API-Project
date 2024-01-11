@@ -1,6 +1,6 @@
 # Codewars-Integration
 
-Let's play with grabbing some data from an API and displaying it on a website. We will be using the the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to make requests to the [Codewars API](https://dev.codewars.com/#get-user) and the [Web Components API](https://developer.mozilla.org/en-US/docs/Web/Web_Components) to display the data we get back. Let's go!
+Let's play with grabbing some data from an API and displaying it on a website. We will be using the the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to make requests to the [Codewars API](https://dev.codewars.com/#get-user) and the [Web Components API](https://developer.mozilla.org/en-US/docs/Web/Web_Components) to display the data we get back. Let's go!✅
 
 ## Learning Objectives
 
@@ -11,15 +11,15 @@ Let's play with grabbing some data from an API and displaying it on a website. W
 
 ## Requirements, Steps, and Acceptance Criteria
 
-1. Open the `index.html` file in your browser and you should see a basic badge with the CodeYourFuture Codewars rank. The badge is a web component that is defined in the `codewars-badge.js` file.
+1. Open the `index.html` file in your browser and you should see a basic badge with the CodeYourFuture Codewars rank. The badge is a web component that is defined in the `codewars-badge.js` file.✅
 
-2. Find the js module in the `index.html` file that links `codewars-badge.js`. This module defines a new HTML element called `<codewars-badge>`, which you can now use _just like any other HTML element_. (This is basically how all HTML elements are defined, it's just that the browser defines the default ones for us.)
+2. Find the js module in the `index.html` file that links `codewars-badge.js`. This module defines a new HTML element called `<codewars-badge>`, which you can now use _just like any other HTML element_. (This is basically how all HTML elements are defined, it's just that the browser defines the default ones for us.)✅
 
-3. Open the `codewars-badge.js` file. The badge is defined as a class that extends the `HTMLElement` class. The `connectedCallback` method is called when the element is added to the DOM. In this case it runs when the page loads. This callback is where we (a) make the request to the Codewars API and then (b) render the data we get back.
+3. Open the `codewars-badge.js` file. The badge is defined as a class that extends the `HTMLElement` class. The `connectedCallback` method is called when the element is added to the DOM. In this case it runs when the page loads. This callback is where we (a) make the request to the Codewars API and then (b) render the data we get back.✅
 
-4. Change the `username` variable in the `codewars-badge.js` file to your own Codewars username. Save the file and refresh the page to see your own badge.
+4. Change the `username` variable in the `codewars-badge.js` file to your own Codewars username. Save the file and refresh the page to see your own badge.✅
 
-5. [Look at this API directly](https://www.codewars.com/api/v1/users/CodeYourFuture) in your browser. It's just a URL - you can look at it. (Install a [JSON viewer extension](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) for your browser if you don't have one already. This will make it easier to read the data.)
+5. [Look at this API directly](https://www.codewars.com/api/v1/users/CodeYourFuture) in your browser. It's just a URL - you can look at it. (Install a [JSON viewer extension](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) for your browser if you don't have one already. This will make it easier to read the data.)✅
 
 6. Now try adding some more data to the badge component. There's lots of other possible data we could display in the badge. Read the [Codewars API docs](https://dev.codewars.com/#get-user) to help you.
 

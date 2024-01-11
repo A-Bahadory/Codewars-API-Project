@@ -6,7 +6,7 @@ class CodeWarsBadge extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    this.userName = "CodeYourFuture";
+    this.userName = "A-Bahadory";
     this.userData = [];
   }
 
@@ -37,7 +37,7 @@ class CodeWarsBadge extends HTMLElement {
            font: 600 100%/1 system-ui, sans-serif;
         }
         data { 
-            color: var(--rank);
+            color: blue;
             border: 3px solid; 
             padding: .25em .5em;
         }      
