@@ -14,9 +14,11 @@ const template = document.querySelector("template").content.cloneNode(true);
 
 function codewarsCardDesign() {
   extractCodeWarsAPI().then((data) => {
-    template.querySelector("h1").textContent = `NAME: ${data.name}`;
-    template.querySelector("h2").textContent = `USER-NAME: ${data.username}`;
-    template.querySelector("h3").textContent = `USER-ID: ${data.id}`;
+    template.querySelector("h1").textContent = `Name: ${data.name}`;
+    template.querySelector("h2").textContent = `UserName: ${data.username}`;
+    template.querySelector("h3").textContent = `User ID: ${data.honor}`;
+    template.querySelector("h4").textContent = `clan: ${data.clan}`;
+    template.querySelector("h4").textContent = `Ranks: ${data.ranks,}`;
     document.body.append(template);
   });
 }
